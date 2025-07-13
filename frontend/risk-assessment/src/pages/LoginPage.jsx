@@ -18,7 +18,7 @@ const LoginPage = () => {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
         },
-        body: JSON.stringify({ username, password })
+        body: JSON.stringify({ "username": username,  "password": password })
       });
 
       console.log(response);
