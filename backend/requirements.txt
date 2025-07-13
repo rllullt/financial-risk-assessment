@@ -3,7 +3,7 @@ cffi==1.17.1
 cryptography==45.0.5
 Django==5.2.4
 djangorestframework==3.16.0
-djangorestframework-simplejwt[crypto]==5.5.0
+djangorestframework_simplejwt==5.5.0
 pycparser==2.22
 PyJWT==2.9.0
 sqlparse==0.5.3
