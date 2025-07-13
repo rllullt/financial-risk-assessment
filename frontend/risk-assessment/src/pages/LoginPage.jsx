@@ -21,11 +21,11 @@ const LoginPage = () => {
         body: JSON.stringify({ "username": username,  "password": password })
       });
 
-      console.log(response);
       if (!response.ok) throw new Error('Login failed');
-
+      
       const data = await response.json();
-      localStorage.setItem('token', data.token);
+      console.log(data);
+      localStorage.setItem('token', data.access);
       navigate('/rut-query');
     } catch (err) {
       setError('Credenciales inválidas');

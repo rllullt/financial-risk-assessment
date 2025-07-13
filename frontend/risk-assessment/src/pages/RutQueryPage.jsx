@@ -19,10 +19,10 @@ const RutQueryPage = () => {
         }
       });
 
-      console.log('response:', response);
       if (!response.ok) throw new Error('Error al consultar el RUT');
-
+      
       const data = await response.json();
+      console.log('response:', response);
       setResult(data);
     } catch (err) {
       setError('No se pudo obtener información del RUT');
