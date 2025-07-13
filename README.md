@@ -90,5 +90,4 @@ Sin embargo, como el tiempo límite eran las 19:00, se tiene un problema conocid
 - En el login del frontend, el token no se guarda correctamente en una variable localStorage, generando que no se pueda enviar correctamente al backendal momento de solicitar la información de scoring según el rut entregado.
 
 Otros problemas no resueltos:
-- No hay manejo de error en el front cuando el usuario no existe o no tiene autorización.
 - Los scores son fijos: no se calculan según el rut ingresado. Se asume que en algún momento «fueron calculados».
