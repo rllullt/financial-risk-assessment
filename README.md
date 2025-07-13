@@ -78,6 +78,10 @@ Además, conocía la aplicación SimpleJWT para este framework.
 
 Lo elegí porque es un framework que conozco. En este caso usé Vanilla JavaScript para agilizar un poco el desarrollo dado el límite de tiempo.
 
+### Base de datos
+
+SQLIte + manejo en memoria, para simplicidad.
+
 
 ## Problemas conocidos
 
